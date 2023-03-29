@@ -1,4 +1,4 @@
-## PythonによるGMC-4エミュレータ開発記
+## PyxelによるGMC-4エミュレータ開発記
 
 ### 2009-12-11
 
@@ -208,6 +208,6 @@ v0.5開始しました．
 
 ### 2023-03-29
 
-Pythonで動くGMC-4エミュレータ🕹️（PyGmc4）の[専用リポジトリ](https://github.com/jay-kumogata/PyGmc4)🗄️を作成しました．
+Pyxelで動くGMC-4エミュレータ🕹️（PyGmc4）の[専用リポジトリ](https://github.com/jay-kumogata/PyGmc4)🗄️を作成しました．
 
 以上
