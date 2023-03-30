@@ -1,4 +1,4 @@
-# PyGmc4 v0.5: A GMC-4 emulator in Pyxel/Python
+# PyGmc4 v0.6: A GMC-4 emulator in Pyxel/Python
 # Copyright (c) 2023 Kumogata Computing Laboratory.
 # All Rights Reserved.
 
@@ -17,6 +17,7 @@ class PyGmc4:
     width = 176
     height = 104
 
+    # Binary LED
     led_x = 154
     led_y = 13
     led_spc = 24
@@ -27,6 +28,7 @@ class PyGmc4:
     led_len_x = 12
     led_len_y = 6
 
+    # 7 Seg. LED
     _7seg_x = 14
     _7seg_y = 48
     _7seg_on_x = 24
@@ -52,13 +54,22 @@ class PyGmc4:
             [  3,13,10, 2 ],  # 6
             [ 17,25, 2, 2 ] ] # 7
 
+    # Keyboard
+    key_x = 50
+    key_y = 82
+    key_spc_x = 24
+    key_spc_y = 16
+    key_w = 20
+    key_h = 12
+    key_col = 8
+    
     # ------------------------------------------------------------
     #   Main Routine
     # ------------------------------------------------------------
     
     # Constructor
     def __init__( self ):
-        pyxel.init( self.width, self.height, title="PyGmc4 v0.5", fps=30)
+        pyxel.init( self.width, self.height, title="PyGmc4 v0.6", fps=30)
         pyxel.load( "PyGmc4.pyxres")
         
         # Create Gmc4's System
@@ -109,6 +120,12 @@ class PyGmc4:
                 pyxel.blt( self._7seg_x + self.pos[n][0], self._7seg_y + self.pos[n][1], 1,
                             self._7seg_off_x + self.pos[n][0], self._7seg_off_y + self.pos[n][1],
                            self.pos[n][2], self.pos[n][3] )
+
+        # Key Hit
+        if ( self._Sys._IO.Key_F ) :
+            pyxel.rectb( self.key_x + self.key_spc_x * (self._Sys._IO.Key % 4),
+                         self.key_y - self.key_spc_y * (self._Sys._IO.Key // 4),
+                         self.key_w, self.key_h, self.key_col )
 
     # Key mapping:
     #
