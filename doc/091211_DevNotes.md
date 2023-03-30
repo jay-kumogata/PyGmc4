@@ -184,7 +184,7 @@ GMC-4の模擬器作成は，楽しいです．週末は，サウンド追加を
 ### 2023-03-26
 
 本日も雨天でした．
-v0.5開始しました．
+v0.5開発を開始しました．
 サウンド命令は，単に音階を再生するだけの簡易実装をしてみました．
 
 	Opコード		ニーモニック 	内容			Flag
@@ -209,5 +209,13 @@ v0.5開始しました．
 ### 2023-03-29
 
 Pyxelで動くGMC-4エミュレータ🕹️（PyGmc4）の[専用リポジトリ](https://github.com/jay-kumogata/PyGmc4)🗄️を作成しました．
+
+### 2023-03-30
+
+v0.6開発を開始しました．
+キーボードが押された時に，そのキーが光るアニメーションを追加しました．
+[押したキーが数が加算されるコード](http://terus.jp/engineering/gmc4cc/compile.html)を動かしてみました．
+
+![](https://github.com/jay-kumogata/PyGmc4/blob/main/screenshots/sample01.gif)
 
 以上
