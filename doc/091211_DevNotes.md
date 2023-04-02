@@ -218,4 +218,11 @@ v0.6開発を開始しました．
 
 ![](https://github.com/jay-kumogata/PyGmc4/blob/main/screenshots/sample01.gif)
 
+### 2023-04-02
+
+基板のドット絵を描きました．
+GMC-4ロゴを修正したのと，LEDの色味を変更しています．
+
+![](https://github.com/jay-kumogata/PyGmc4/blob/main/screenshots/led04.gif)
+
 以上
