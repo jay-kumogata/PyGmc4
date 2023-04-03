@@ -117,9 +117,11 @@ fxpファイルを読み込むように変更しました．
 v0.2開発を開始しました．
 『昔のフォルダを整理していたら』シリーズの第4弾です．
 2009年にHaskellで書き始めたGMC-4エミュですが，途中Pythonへの移植を経て，Pyxelで基板のドット絵を表示してみました．
-gmc4cc (C Compiler for GMC-4)の[LEDが左右に動くデモ](http://terus.jp/engineering/gmc4cc/compile.html?autoload=files/samples/pendulum.c)を動かしてみました．
+gmc4cc(C Compiler for GMC-4)さんの[LEDが左右に動くデモ](http://terus.jp/engineering/gmc4cc/compile.html?autoload=files/samples/pendulum.c)を動かしてみました．
 
 ![](https://github.com/jay-kumogata/PyGmc4/blob/main/screenshots/led02.gif)
+
+Pyxelで動くGmc4エミュレータ🕹️（PyGmc4）の[ソースコード🗄️](https://github.com/jay-kumogata/PyGmc4/)を公開しました．
 
 ### 2023-03-20
 
