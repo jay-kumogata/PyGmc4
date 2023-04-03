@@ -227,4 +227,12 @@ GMC-4ロゴを修正したのと，LEDの色味を変更しています．
 
 ![](https://github.com/jay-kumogata/PyGmc4/blob/main/screenshots/led04.gif)
 
+### 2023-04-03
+
+『昔のフォルダを整理していたら』シリーズの第4弾（Pyxelで動作するGMC-4エミュ🕹️）の続きです．
+押下されたキーが点灯する機能を追加しました．ロゴマークと2進LEDのドット絵も少し修正しました．
+GMC-4エミュ🕹️も完成に近づいています．
+
+![](https://github.com/jay-kumogata/PyGmc4/blob/main/screenshots/xevious02.gif)
+
 以上
