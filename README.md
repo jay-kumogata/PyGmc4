@@ -5,7 +5,7 @@
 PyGmc4 is a GMC-4 emulator runs on Pyxel/Python library.
 [Dev Notes](https://github.com/jay-kumogata/PyGmc4/blob/main/doc/091211_DevNotes.md) here.
 
-![](https://github.com/jay-kumogata/PyGmc4/blob/main/screenshots/led04.gif)
+![](https://github.com/jay-kumogata/PyGmc4/blob/main/screenshots/xevious02.gif)
 
 ## How to Play
 
