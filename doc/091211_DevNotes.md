@@ -235,4 +235,9 @@ GMC-4エミュ🕹️も完成に近づいています．
 
 ![](https://github.com/jay-kumogata/PyGmc4/blob/main/screenshots/xevious02.gif)
 
+### 2023-06-25
+
+人生で最後に作った模擬器が，PyGmc4になりそうです．
+昔から，一度基板の模擬器を作ってみたかったので，作れて良かったです．
+
 以上
